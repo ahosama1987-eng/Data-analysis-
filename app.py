@@ -102,7 +102,7 @@ else:
     # 6. عرض جدول البيانات في الأسفل
     with st.expander("👀 عرض البيانات الكاملة"):
         st.dataframe(df, use_container_width=True)
-else:
+ else:
     st.warning("👈 من فضلك ارفع ملف من القائمة الجانبية للبدء.")
         
         col1, col2, col3 = st.columns(3)
